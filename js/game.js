@@ -211,6 +211,7 @@ class Game {
       }
     })
   }
+
   // 检测当前鼠标移动坐标，并处理相关事件
   getMousePos () {
     let g = this,
@@ -404,11 +405,11 @@ class Game {
       g.mouseX = x
       g.mouseY = y
     }
-    // 查看更新日志按钮点击事件
-    document.querySelectorAll('.change-log-btn').forEach(function (el, idx) {
+    // 查看联系作者按钮点击事件
+    document.querySelectorAll('.change-author-btn').forEach(function (el, idx) {
       el.onclick = function () {
-        let updateLog = document.getElementsByClassName('update-log')[0]
-        updateLog.style.display === 'none' ? updateLog.style.display = 'block' : updateLog.style.display = 'none'
+        let contactAuthor = document.getElementsByClassName('contact-author')[0]
+        contactAuthor.style.display === 'none' ? contactAuthor.style.display = 'block' : contactAuthor.style.display = 'none'
       }
     })
     // 开始游戏按钮点击事件
@@ -429,10 +430,10 @@ class Game {
       document.getElementsByClassName('cards-list')[0].className += ' show'
       // 显示控制按钮菜单
       document.getElementsByClassName('menu-box')[0].className += ' show'
-      // 隐藏开始游戏按钮，游戏介绍，查看更新日志按钮
+      // 隐藏开始游戏按钮，游戏介绍，查看联系作者按钮
       document.getElementById('js-startGame-btn').style.display = 'none'
       document.getElementById('js-intro-game').style.display = 'none'
-      document.getElementById('js-log-btn').style.display = 'none'
+      document.getElementById('js-author-btn').style.display = 'none'
     }
     // 植物卡片点击事件
     document.querySelectorAll('.cards-item').forEach(function (card, idx) {

@@ -120,7 +120,7 @@ body {
 .none {
   display: none;
 }
-.check-log-btn {
+.check-author-btn {
   position: absolute;
   left: 600px;
   top: 532px;
@@ -133,7 +133,7 @@ body {
   cursor: pointer;
   z-index: 9;
 }
-.update-log {
+.contact-author {
   /*display: none;*/
   position: absolute;
   left: 130px;
@@ -147,24 +147,24 @@ body {
   z-index: 250;
   padding: 10px;
 }
-.update-log .title {
+.contact-author .title {
   font-size: 16px;
   color: #FF0;
   margin: 10px 0; 
 }
-.update-log dl {
+.contact-author dl {
   text-align: left;
   height: 400px;
   overflow: auto;
 }
-.update-log dl dd,.update-log dl dt {
+.contact-author dl dd,.contact-author dl dt {
   font-size: 14px;
   line-height: 18px;
 }
-.update-log dl dd {
+.contact-author dl dd {
   padding-left: 30px;
 }
-.update-log .close-log-btn {
+.contact-author .close-author-btn {
   position: absolute;
   bottom: 20px;
   left: 260px;
