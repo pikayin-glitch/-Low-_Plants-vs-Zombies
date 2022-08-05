@@ -30,7 +30,7 @@ class Game {
     Object.assign(this, g)
   }
   // 创建，并初始化当前对象
-  static new () {
+  static new () { 
     let g = new this()
     g.init()
     return g

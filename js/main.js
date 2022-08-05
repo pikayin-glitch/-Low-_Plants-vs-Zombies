@@ -103,7 +103,7 @@ class Main {
             { transform: 'translate(0,0)', opacity: 0 },
             { offset: .5,transform: 'translate(0,300px)', opacity: 1 },
             { offset: .75,transform: 'translate(0,300px)', opacity: 1 },
-            { offset: 1,transform: 'translate(-'+ (left - 110) +'px,50px)',opacity: 0 }
+            { offset: 1,trpansform: 'translate(-'+ (left - 110) +'px,50px)',opacity: 0 }
           ]
       document.getElementsByClassName('systemSun')[0].animate(keyframes1,keyframesOptions)
       setTimeout(function () {

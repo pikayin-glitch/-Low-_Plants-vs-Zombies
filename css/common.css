@@ -43,45 +43,19 @@ section {
     margin: 0;
 }
 
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-iframe,
-fieldset,
-input,
-textarea,
-p,
-blockquote,
-th,
-td,
-button {
+body,div,dl,dt,dd,ul,ol,
+li,h1,h2,h3,h4,h5,h6,pre,
+form,iframe,fieldset,input,
+textarea,p,blockquote,th,td,button {
     padding: 0;
     margin: 0;
 }
 
-fieldset,
-img,
-button {
+fieldset,img,button {
     border: 0;
 }
 
-body,
-input,
-select,
-textarea {
+body,input,select,textarea {
     font-family: '微软雅黑 Regular', '微软雅黑';
     color: #333;
     font-size: 12px;
